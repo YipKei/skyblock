@@ -1,0 +1,28 @@
+{
+    "parent": "skyblock:skyblock/fishing",
+    "display": {
+        "icon": {
+            "item": "minecraft:grass"
+        },
+        "title": {
+            "translate":"We Are The Same"
+        },
+        "description": {
+            "translate":"Get Grass form growing Wheat"
+        }
+    },
+    "criteria": {
+        "grass":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:grass"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "parent": "skyblock:skyblock/cauldron",
+    "display": {
+      "icon": {
+        "item": "minecraft:wheat"
+      },
+      "title": {
+        "translate": "Where The Wheat From?"
+      },
+      "description": {
+        "translate": "Get some wheat from Zobmie Villagers and Get Ready for the grass"
+      }
+    },
+    "criteria": {
+      "wheat": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:wheat"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

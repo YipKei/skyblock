@@ -1,0 +1,26 @@
+{
+    "parent": "skyblock:skyblock/get_wheat",
+    "display": {
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "title": {
+            "translate":"Fishing Master"
+        },
+        "description": {
+            "translate":"Get some Enchanted Books from fishing"
+        }
+    },
+    "criteria": {
+        "fishing": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:enchanted_book"
+                    ]
+                }
+            }
+        }
+      }
+}

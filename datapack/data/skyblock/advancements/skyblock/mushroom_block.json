@@ -1,0 +1,53 @@
+{
+    "parent": "skyblock:skyblock/emerald",
+    "display": {
+      "icon": {
+        "item": "minecraft:mycelium"
+      },
+      "title": {
+        "translate": "We Need More Mushroom"
+      },
+      "description": {
+        "translate": "Get Mycelium, Crimson Nylium, and Warped Nylium"
+      },
+      "frame": "goal"
+    },
+    "criteria": {
+      "mycelium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:mycelium"
+              ]
+            }
+          ]
+        }
+      },
+      "crimson_nylium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:crimson_nylium"
+              ]
+            }
+          ]
+        }
+      },
+      "warped_nylium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:warped_nylium"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,5 +1,5 @@
 {
-  "parent": "skyblock:skyblock/cauldron",
+  "parent": "skyblock:skyblock/grass",
   "display": {
     "icon": {
       "item": "minecraft:lightning_rod"

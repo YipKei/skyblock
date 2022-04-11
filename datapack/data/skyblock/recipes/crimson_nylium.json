@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sas",
+        "ada",
+        "sas"
+    ],
+    "key": {
+        "s":{
+            "item": "minecraft:soul_sand"
+        },
+        "a":{
+            "item": "minecraft:crimson_fungus"
+        },
+        "d":{
+            "item": "minecraft:soul_soil"
+        }
+    },
+    "result": {
+        "item": "minecraft:crimson_nylium"
+    }
+}

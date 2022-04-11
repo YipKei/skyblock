@@ -1,0 +1,27 @@
+{
+    "replace": false,
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CHC",
+        "HDH",
+        "BHB"
+    ],
+    "key": {
+        "D":{
+            "item": "minecraft:dirt"
+        },
+        "C":{
+            "tag": "skyblock:cooked_meat"
+        },
+        "H":{
+            "item": "minecraft:hay_block"
+        },
+        "B":{
+            "item":"minecraft:bone_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:dirt_path",
+        "count": 2
+    }
+}

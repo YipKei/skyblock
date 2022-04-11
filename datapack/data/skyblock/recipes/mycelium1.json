@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "mycelium",
+    "pattern": [
+        "ABA",
+        "BCB",
+        "ABA"
+    ],
+    "key": {
+        "A":{
+            "item": "minecraft:brown_mushroom_block"
+        },
+        "B":{
+            "item": "minecraft:red_mushroom_block"
+        },
+        "C":{
+            "item": "minecraft:podzol"
+        }
+    },
+    "result": {
+        "item": "minecraft:mycelium"
+    }
+}
