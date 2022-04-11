@@ -273,22 +273,8 @@ public class SkyBlockChunkGenerator extends NoiseChunkGenerator {
   protected static void generateSpawnPlatformInBox(
       ServerWorldAccess world, BlockPos spawnpoint, BlockBox box) {
     BlockState leavesBlockState = Blocks.OAK_LEAVES.getDefaultState().with(LeavesBlock.DISTANCE, 1);
-    fillRelativeBlockInBox(
-        world, Blocks.GRASS_BLOCK.getDefaultState(), spawnpoint, -2, -1, -7, 2, -1, 2, box);
-    placeRelativeBlockInBox(world, Blocks.MYCELIUM.getDefaultState(), spawnpoint, 0, -1, 0, box);
+    placeRelativeBlockInBox(world, Blocks.DIRT.getDefaultState(), spawnpoint, 0, -1, 0, box);
     placeRelativeBlockInBox(
-        world, Blocks.CRIMSON_NYLIUM.getDefaultState(), spawnpoint, -1, -1, 1, box);
-    placeRelativeBlockInBox(
-        world, Blocks.WARPED_NYLIUM.getDefaultState(), spawnpoint, 1, -1, 1, box);
-    placeRelativeBlockInBox(world, Blocks.DIRT.getDefaultState(), spawnpoint, 0, -1, -5, box);
-    fillRelativeBlockInBox(world, leavesBlockState, spawnpoint, -2, 3, -7, 2, 4, -3, box);
-    fillRelativeBlockInBox(world, leavesBlockState, spawnpoint, -1, 5, -5, 1, 6, -5, box);
-    fillRelativeBlockInBox(world, leavesBlockState, spawnpoint, 0, 5, -6, 0, 6, -4, box);
-    placeRelativeBlockInBox(world, leavesBlockState, spawnpoint, -1, 5, -4, box);
-    placeRelativeBlockInBox(world, leavesBlockState, spawnpoint, -1, 5, -6, box);
-    placeRelativeBlockInBox(world, Blocks.AIR.getDefaultState(), spawnpoint, -2, 4, -3, box);
-    placeRelativeBlockInBox(world, Blocks.AIR.getDefaultState(), spawnpoint, -2, 3, -7, box);
-    fillRelativeBlockInBox(
-        world, Blocks.OAK_LOG.getDefaultState(), spawnpoint, 0, 0, -5, 0, 5, -5, box);
+        world, Blocks.OAK_SAPLING.getDefaultState(), spawnpoint, 0, 0, 0, box);
   }
 }
