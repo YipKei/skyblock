@@ -11,7 +11,7 @@
 + 安装[Fabric](https://fabricmc.net/use)
 + 下载[fabric-carpet](https://www.curseforge.com/minecraft/mc-mods/carpet/files/)
 + 下载[fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files)
-+ 下载[SkyBlock模组及其数据包](https://github.com/jsorrell/skyblock/releases)
++ 下载[单方块空岛模组及其数据包](https://github.com/YipKei/skyblock/releases)
 + 将fabric-carpet，fabric-api和SkyBlock模组放进到`<minecraft文件目录>/mods/`文件夹内
 
 ## 新特性一览
