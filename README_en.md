@@ -10,7 +10,7 @@ This mod has the same way to install:
 - Install [Fabric](https://fabricmc.net/use)
 - Download [fabric-carpet](https://www.curseforge.com/minecraft/mc-mods/carpet/files/)
 - Download [fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files)
-- Download [SkyBlock and the Datapack](https://github.com/jsorrell/skyblock/releases)
+- Download [SingleBlock and the Datapack](https://github.com/YipKei/skyblock/releases)
 - Place fabric-carpet, fabric-api, and SkyBlock into `<minecraft-directory>/mods/`
 
 ## New Feature
